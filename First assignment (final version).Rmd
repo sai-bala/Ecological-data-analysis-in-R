@@ -1,0 +1,48 @@
+---
+title: "First assignment"
+author: "Balamurugan Ananthakrishnan"
+date: "22 September, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Question 1
+
+Install and load a package, set up your working directory, load a dataset and look for some help on the application of a given function.
+
+## Solution
+
+- Setting up working directory:
+
+```{r,  eval=FALSE}
+setwd("~/Documents/My Masters/Semester V materials/Ecological data analysis in R/Working directory")
+```
+
+- Installing package `readxl`
+
+```{r,  eval=FALSE}
+install.packages("readxl")
+```
+
+- Using/loading package `readxl`
+
+```{r,  eval=FALSE}
+library("readxl")
+```
+
+- Loading reef fish data
+
+```{r,  eval=FALSE}
+rfish <- read_excel('reef_fish.xlsx')
+```
+
+- A quick guide on function `median`
+
+```{r,  eval=FALSE}
+?median
+```
+
+-----------------End------------------
